@@ -1,0 +1,21 @@
+{
+  "name": "bootstrapmat",
+  "version": "1.0.0",
+  "description": "Mat design using Bootstrap Scss and Bootswatch Paper theme",
+  "main": "index.js",
+  "author": "Rakesh",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-compress": "^1.4.3"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
