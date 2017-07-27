@@ -61,13 +61,13 @@
 		<!-- /header -->
 		<div class="main">
 		
-			<div class="container" id="loginbox">
-				<div class="row loginrow">
-					<div class="col-xs-12 col-md-6 col-md-offset-3 login-wrapper">
+			<div class="container" id="registerbox">
+				<div class="row registerrow">
+					<div class="col-xs-12 col-md-6 col-md-offset-3 register-wrapper">
 						
 					<div class="panel panel-primary">
 
-					  <div class="loginlogo">
+					  <div class="registerlogo">
 							<i class="fa fa-user fa-4x"></i>
 					  </div>
 
@@ -75,27 +75,34 @@
 							<div class="form" role="form">
 
 								<div class="form-group">
-									<input type="text" class="form-control" id="username" name="username" placeholder="roy@easyshop.com">
+									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 								</div>
+
+								<div class="form-group">
+									<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+								</div>
+
 								<div class="form-group">
 
 									<input type="password" class="form-control" id="password" name="password" placeholder="password">
 									
 								</div>
 
+								
+
 								<div class="form-group">
 									<div class="checkbox">
 										<label>
 											<input type="checkbox" value="">
-											Remember me
+											<a href="#" title="">Terms &amp; condition</a>
 										</label>
 									</div>
 								</div>
-								<div class="login-footer">
-										<button type="submit" class="btn btn-primary btn-block"> Login</button>
+								<div class="register-footer">
+										<button type="submit" class="btn btn-primary btn-block"> Signup</button>
 										<hr>
 										<div class="row">
-											<a href="#" class="col-md-6 border-right"> Create an account</a>
+											<a href="#" class="col-md-6 border-right">Already have an account ?</a>
 											<a href="#" class="col-md-6"> Forget Password ?</a>
 										</div>
 										

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Easy Shop</title>
+    <title>Category - Easy Shop</title>
     <link rel="stylesheet" href="assets/css/app.min.css">
   </head>
   <body>
@@ -32,7 +32,7 @@
                 <a href="category.php">Category</a>
               </li>
               <li>
-                <a href="#">Product</a>
+                <a href="product.php">Product</a>
               </li>
               <li>
                 <a href="#">Featured</a>
@@ -43,10 +43,10 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a href="#">Login</a>
+                    <a href="login.php">Login</a>
                   </li>
                   <li>
-                    <a href="#">Signup</a>
+                    <a href="signup.php">Signup</a>
                   </li>
                 </ul>
               </li>
@@ -57,7 +57,7 @@
       </div>
     </nav>
     <!-- /Navbar-->
-    <header id="banner" class="category-banner">
+    <header id="banner" class="category-banner" style="transform: all .4s">
       <div class="wrap-center">
         <div class="banner-centered" id="banner-text">
           <h2><strong>Welcome to Easy Shop</strong></h2>
@@ -155,6 +155,19 @@
         </div>
       </section>
     </div>
+
+    <div class="clearfix"></div>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <span>Build with
+            <i class="fa fa-heart"></i> by Rakesh</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <!-- Scripts -->
     <script src="assets/js/jquery.js" type="text/javascript" charset="utf-8"></script>
     <script src="assets/js/app.min.js" type="text/javascript" charset="utf-8"></script>
@@ -170,12 +183,13 @@
         $("#banner-text").css(
         {
           'top': (scroll / 3) + 'px',
-          'opacity': 1 - (scroll / 250)
+          'opacity': 1 - (scroll / 1000),
+          'font-size': 0.8 - (scroll/600) + 'em'
         });
   
         $("#banner").css(
         {
-          'background-position': 'center' + (-scroll / 2) + 'px'
+          'background-position': 'center' + (-scroll / 2) + 'px',
         });
   
   

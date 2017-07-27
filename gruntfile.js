@@ -82,7 +82,7 @@ grunt.initConfig({
 
 
   // registering the default task that we're going to use along with watch
-  grunt.registerTask('default', ['browserSync','watch']);
+  grunt.registerTask('default', ['sass','cssmin','uglify', 'browserSync','watch']);
 
 
 };

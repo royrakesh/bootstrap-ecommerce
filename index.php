@@ -32,7 +32,7 @@
                 <a href="category.php">Category</a>
               </li>
               <li>
-                <a href="#">Product</a>
+                <a href="product.php">Product</a>
               </li>
               <li>
                 <a href="#">Featured</a>
@@ -43,10 +43,10 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a href="#">Login</a>
+                    <a href="login.php">Login</a>
                   </li>
                   <li>
-                    <a href="#">Signup</a>
+                    <a href="signup.php">Signup</a>
                   </li>
                 </ul>
               </li>
@@ -57,17 +57,69 @@
       </div>
     </nav>
     <!-- /Navbar-->
-    <header id="header" class="bg-full-height">
-      <div class="col-sm-12 col-md-8 col-md-offset-2 heade-box">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+   <!--  Slider -->
+
+<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#bs-carousel" data-slide-to="1"></li>
+    <li data-target="#bs-carousel" data-slide-to="2"></li>
+    <li data-target="#bs-carousel" data-slide-to="3"></li>
+  </ol>
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner carousel-overlay">
+    <div class="item slides active">
+      <div class="slide-1"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>We are creative</h1>        
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+         <a href="#" class="btn btn-hero btn-lg"  role="link" title="">All Product</a>
       </div>
-    </header>
-    <!-- /header -->
+    </div>
+    <div class="item slides">
+      <div class="slide-2"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>We are smart</h1>        
+            <h3>Get start your next awesome project</h3>
+        </hgroup>       
+       <a href="#" class="btn btn-hero btn-lg"  role="link" title="">All Product</a>
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-3"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>We are amazing</h1>        
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+      <a href="#" class="btn btn-hero btn-lg"  role="link" title="">All Product</a>
+      </div>     
+    </div>
+
+      <div class="item slides">
+      <div class="slide-4"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>We are amazing</h1>        
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+      <a href="#" class="btn btn-hero btn-lg"  role="link" title="">All Product</a>
+      </div>     
+    </div>
+
+  </div> 
+</div>
+
+   <!-- Slider -->
     <div class="main">
       <section class="easy-section" id="featured-product">
         <div class="container">
@@ -167,9 +219,9 @@
           <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
             <a href="#" class="category">
               <div class="category-image">
-                <img src="images/logo/wifi.png" alt="">
+                <img src="images/category/bag.png" alt="">
                 <div class="caption">
-                  <h3>Wifi</h3>
+                  <h3>Bag</h3>
                 </div>
               </div>
             </a>
@@ -177,9 +229,9 @@
           <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
             <a href="#" class="category">
               <div class="category-image">
-                <img src="images/logo/cloud-computing.png" alt="">
+                <img src="images/category/belt.png" alt="">
                 <div class="caption">
-                  <h3>Cloud</h3>
+                  <h3>Belt</h3>
                 </div>
               </div>
             </a>
@@ -187,9 +239,9 @@
           <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
             <a href="#" class="category">
               <div class="category-image">
-                <img src="images/logo/internet.png" alt="">
+                <img src="images/category/boots.png" alt="">
                 <div class="caption">
-                  <h3>Internet</h3>
+                  <h3>Boots</h3>
                 </div>
               </div>
             </a>
@@ -197,9 +249,9 @@
           <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
             <a href="#" class="category">
               <div class="category-image">
-                <img src="images/logo/smartphone-6.png" alt="">
+                <img src="images/category/purse.png" alt="">
                 <div class="caption">
-                  <h3>Phone</h3>
+                  <h3>Purse</h3>
                 </div>
               </div>
             </a>
@@ -207,9 +259,9 @@
           <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
             <a href="#" class="category">
               <div class="category-image">
-                <img src="images/logo/paper-plane.png" alt="">
+                <img src="images/category/shirt-4.png" alt="">
                 <div class="caption">
-                  <h3>Mail</h3>
+                  <h3>T-Shirt</h3>
                 </div>
               </div>
             </a>
@@ -217,9 +269,9 @@
           <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
             <a href="#" class="category">
               <div class="category-image">
-                <img src="images/logo/garbage-2.png" alt="">
+                <img src="images/category/shoes-1.png" alt="">
                 <div class="caption">
-                  <h3>Destroy</h3>
+                  <h3>Shoes</h3>
                 </div>
               </div>
             </a>
@@ -227,9 +279,9 @@
           <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
             <a href="#" class="category">
               <div class="category-image">
-                <img src="images/logo/dislike-1.png" alt="">
+                <img src="images/category/skirt-1.png" alt="">
                 <div class="caption">
-                  <h3>Broken</h3>
+                  <h3>Skirts</h3>
                 </div>
               </div>
             </a>
@@ -237,9 +289,9 @@
           <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
             <a href="#" class="category">
               <div class="category-image">
-                <img src="images/logo/map-location.png" alt="">
+                <img src="images/category/tie.png" alt="">
                 <div class="caption">
-                  <h3>Location</h3>
+                  <h3>Tie</h3>
                 </div>
               </div>
             </a>
@@ -254,25 +306,26 @@
       <h1 class="section-heading">How it works </h1>
           <div class="row">
             <div class="col-xs-12 col-md-4">
-            <div class="icon"><i class="fa fa-flask fa-4x"></i></div>
+            <div class="icon"><img src="/images/icons/gears.png" class="img-responsive" alt="Image"></div>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation.</span>
             </div>
             <div class="col-xs-12 col-md-4">
-              <div class="icon"><i class="fa fa-briefcase fa-4x"></i></div>
+              <div class="icon"><img src="/images/icons/hourglass.png" class="img-responsive" alt=""></div>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation.</span>
             </div>
             <div class="col-xs-12 col-md-4">
-            <div class="icon"><i class="fa fa-inr fa-4x"></i></div>
+            <div class="icon"><img src="/images/icons/hand-shake.png" class="img-responsive" alt="Image"></div>
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation.</span></div>
           </div>
         </div>
       </section>
+
 
 
       <section class="easy-section" id="contact">
