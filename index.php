@@ -71,14 +71,14 @@
     <li data-target="#bs-carousel" data-slide-to="2"></li>
     <li data-target="#bs-carousel" data-slide-to="3"></li>
   </ol>
-  
+
   <!-- Wrapper for slides -->
   <div class="carousel-inner carousel-overlay">
     <div class="item slides active">
       <div class="slide-1"></div>
       <div class="hero">
         <hgroup>
-            <h1>We are creative</h1>        
+            <h1>We are creative</h1>
             <h3>Get start your next awesome project</h3>
         </hgroup>
          <a href="#" class="btn btn-hero btn-lg"  role="link" title="">All Product</a>
@@ -86,37 +86,37 @@
     </div>
     <div class="item slides">
       <div class="slide-2"></div>
-      <div class="hero">        
+      <div class="hero">
         <hgroup>
-            <h1>We are smart</h1>        
+            <h1>We are smart</h1>
             <h3>Get start your next awesome project</h3>
-        </hgroup>       
+        </hgroup>
        <a href="#" class="btn btn-hero btn-lg"  role="link" title="">All Product</a>
       </div>
     </div>
     <div class="item slides">
       <div class="slide-3"></div>
-      <div class="hero">        
+      <div class="hero">
         <hgroup>
-            <h1>We are amazing</h1>        
+            <h1>We are amazing</h1>
             <h3>Get start your next awesome project</h3>
         </hgroup>
       <a href="#" class="btn btn-hero btn-lg"  role="link" title="">All Product</a>
-      </div>     
+      </div>
     </div>
 
       <div class="item slides">
       <div class="slide-4"></div>
-      <div class="hero">        
+      <div class="hero">
         <hgroup>
-            <h1>We are amazing</h1>        
+            <h1>We are amazing</h1>
             <h3>Get start your next awesome project</h3>
         </hgroup>
       <a href="#" class="btn btn-hero btn-lg"  role="link" title="">All Product</a>
-      </div>     
+      </div>
     </div>
 
-  </div> 
+  </div>
 </div>
 
    <!-- Slider -->
@@ -124,8 +124,8 @@
       <section class="easy-section" id="featured-product">
         <div class="container">
           <h1 class="section-heading">Featured Product</h1>
-          <div class="row list-group featured-products-inner">
-            <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3">
+          <div class="row list-group featured-products-inner  animatedParent"  data-sequence='500'>
+            <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3 animated bounceInDown" data-id='1'>
               <div class="thumbnail">
                 <img src="./images/product.jpg" alt="" class="group list-group-image">
                 <div class="caption">
@@ -146,7 +146,7 @@
                 </div>
               </div>
             </div>
-            <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3 animated bounceInDown" data-id='2'>
               <div class="thumbnail">
                 <img src="./images/product.jpg" alt="" class="group list-group-image">
                 <div class="caption">
@@ -167,7 +167,7 @@
                 </div>
               </div>
             </div>
-            <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3 animated bounceInDown" data-id='3'>
               <div class="thumbnail">
                 <img src="./images/product.jpg" alt="" class="group list-group-image">
                 <div class="caption">
@@ -188,7 +188,7 @@
                 </div>
               </div>
             </div>
-             <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3">
+             <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3 animated bounceInDown" data-id='4'>
               <div class="thumbnail">
                 <img src="./images/product.jpg" alt="" class="group list-group-image">
                 <div class="caption">
@@ -301,7 +301,7 @@
       <!-- Product category grid -->
 
       <section class="easy-section" id="how-it-works">
-      
+
       <div class="container">
       <h1 class="section-heading">How it works </h1>
           <div class="row">
@@ -333,12 +333,12 @@
         <h1 class="section-heading">Contact Us</h1>
           <div class="row">
             <div class="col-xs-12 col-sm-6 col-sm-offset-3">
-              
+
                 <form action="" method="POST" role="form">
                   <legend>Easy Shop</legend>
-                
+
                   <div class="form-group">
-            
+
                     <input type="text" class="form-control" id="" placeholder="Name">
                   </div>
                   <div class="form-group">
@@ -348,7 +348,7 @@
                   <div class="form-group">
                     <input type="text" class="form-control" id="" placeholder="Phone No">
                   </div>
-                  
+
                   <div class="form-group">
                   <div class="radio">
                     <label>
@@ -373,10 +373,10 @@
                   </div>
 
 
-                 
-                
-                  
-                
+
+
+
+
                   <button type="submit" class="btn btn-primary btn-block">Send</button>
                 </form>
 

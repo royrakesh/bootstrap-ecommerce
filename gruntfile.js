@@ -1,4 +1,4 @@
-module.exports = function(grunt) { 
+module.exports = function(grunt) {
 
 
 
@@ -22,7 +22,11 @@ grunt.initConfig({
   },
   target: {
     files: {
-      'assets/css/app.min.css': ['assets/css/main.css','assets/css/font-awesome.css']
+      'assets/css/app.min.css': [
+                                  'assets/css/main.css',
+                                  'assets/css/font-awesome.css',
+                                  'resource/css/animations.css'
+                                ]
       }
     }
   },
@@ -34,7 +38,11 @@ grunt.initConfig({
       },
       target: {
         files: {
-          'assets/js/app.min.js': ['resource/js/bootstrap.js','resource/js/main.js']
+          'assets/js/app.min.js': [
+                                  'resource/js/bootstrap.js',
+                                  'resource/js/css3-animate-it.js',
+                                  'resource/js/main.js'
+                                  ]
         }
       }
     },
@@ -65,7 +73,7 @@ grunt.initConfig({
           watchTask:true,
           proxy: 'bootstrapmat.dev',
         }
-        
+
       }
     }
 
