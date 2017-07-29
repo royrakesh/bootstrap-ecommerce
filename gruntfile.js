@@ -17,8 +17,10 @@ grunt.initConfig({
 
   cssmin: {
   options: {
+    rebase:false,
     mergeIntoShorthands: false,
     roundingPrecision: -1
+
   },
   target: {
     files: {
@@ -51,7 +53,7 @@ grunt.initConfig({
        nospawn:true
       },
       css: {
-        files: ['resource/scss/*/*.scss' , 'resource/scss/*.scss'],
+        files: ['resource/scss/**/*.scss' , 'resource/scss/*.scss'],
         tasks: ['sass','cssmin'],
       },
       js:{

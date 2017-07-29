@@ -76,7 +76,7 @@
       <section class="easy-section" id="featured-product">
         <div class="container">
           <h1 class="section-heading">Featured Product</h1>
-          <div class="row list-group featured-products-inner  animatedParent"  data-sequence='500'>
+          <div class="row list-group featured-products-inner  animatedParent"  data-sequence='300'>
             <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3 animated bounceInDown" data-id='1'>
               <div class="thumbnail">
                 <img src="./images/product.jpg" alt="" class="group list-group-image">
@@ -342,23 +342,11 @@
 
 
     </div>
-    <div class="clearfix"></div>
-    <footer class="page-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <span>Build with
-            <i class="fa fa-heart"></i> by Rakesh</span>
-          </div>
-        </div>
-      </div>
-    </footer>
+     <? require_once 'inc/footer.php';?>
     <!-- /footer -->
 
     <!-- progressbar -->
-    <div class="easyshop-progress-container">
-    <div class="easyshop-progress"></div>
-    </div>
+   
 
 
     <!-- Scripts -->

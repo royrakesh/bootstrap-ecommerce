@@ -37,7 +37,10 @@
                 <a href="login.php">Login</a>
               </li>
               <li>
-                <a href="signup.php">Signup</a>
+                <a href="forget-password.php">Forget Password</a>
+              </li>
+              <li>
+                <a href="register.php">Signup</a>
               </li>
             </ul>
           </li>

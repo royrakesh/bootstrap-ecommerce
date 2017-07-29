@@ -28,6 +28,7 @@
 
 
 
+
          <div class="easy-section" id="product-row">
             <div class="row product-row">
             <div class="col-xs-12 col-md-6">
@@ -146,8 +147,11 @@
           </div>
           </div>
 
-          <div class="easy-section" id="related-product">
+<hr>
+
+         <div class="easy-section" id="related-product">
             <div class="row related-product">
+            <h1 class="section-heading">Related Products</h1>
              <div id="Carousel" class="carousel slide">
                  
                 <ol class="carousel-indicators">
@@ -161,37 +165,37 @@
                     
                 <div class="item active">
                   <div class="row">
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-sm-12 col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-sm-12 col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-sm-12 col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-sm-12 col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
                   </div><!--.row-->
                 </div><!--.item-->
                  
                 <div class="item">
                   <div class="row">
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
                   </div><!--.row-->
                 </div><!--.item-->
                  
                 <div class="item">
                   <div class="row">
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
                   </div><!--.row-->
                 </div><!--.item-->
                  
                 </div><!--.carousel-inner-->
-                  <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
-                  <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
+                  <a class="left carousel-control" href="#Carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#Carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
                 </div><!--.Carousel-->
           </div>
-          </div>
+      </div>
                     
 
 
@@ -201,28 +205,7 @@
 
       </div> <!-- .main end -->
 
-      <div class="clearfix"></div>
-      <footer class="page-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-3 text-center">
-              <h3>Subscribe us</h3>
-            </div>
-            <div class="col-sm-3 text-center">
-              <span>Build with
-                <i class="fa fa-heart"></i>by Rakesh</span>
-            </div>
-            <div class="col-sm-3 text-center">
-              <span>Build with
-                <i class="fa fa-heart"></i>by Rakesh</span>
-            </div>
-            <div class="col-sm-3 text-center">
-              <span>Build with
-                <i class="fa fa-heart"></i>by Rakesh</span>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <? require_once 'inc/footer.php';?>
       <!-- /footer -->
       <!-- progressbar -->
       <div class="easyshop-progress-container">

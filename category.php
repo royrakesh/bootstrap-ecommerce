@@ -108,17 +108,7 @@
       </section>
     </div>
 
-    <div class="clearfix"></div>
-    <footer class="page-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <span>Build with
-            <i class="fa fa-heart"></i> by Rakesh</span>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <? require_once 'inc/footer.php';?>
 
     <!-- Scripts -->
     <script src="assets/js/jquery.js" type="text/javascript" charset="utf-8"></script>
