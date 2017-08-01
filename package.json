@@ -8,7 +8,8 @@
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
     "grunt-browser-sync": "^2.2.0",
-    "grunt-contrib-compress": "^1.4.3"
+    "grunt-contrib-compress": "^1.4.3",
+    "hover.css": "^2.2.0"
   },
   "devDependencies": {
     "grunt": "^1.0.1",

@@ -1,34 +1,39 @@
 <div class="clearfix"></div>
-<footer class="page-footer">
+<footer id="site-footer">
   <div class="container">
-    <div class="row footer-row">
-      <div class="col-xs-12 col-sm-3 text-center">
-
-        <form action="" method="POST" class="form-inline" role="form">
-          <div class="form-group">
-            <input type="email" class="form-control" id="newsletter" placeholder="Email addsess">
-          </div>
-          <button type="submit" class="btn btn-primary">Join</button>
-        </form>
-      </div>
-      <div class="col-xs-12 col-sm-3">
-       <span>
-         Easy Shop<br>
-         3/21B Saint P.<br>
-         USA
-       </span>
-      </div>
-      <div class="col-xs-12 col-sm-3 text-center">
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris ni</p>
-      </div>
-      <div class="col-xs-12 col-sm-3 text-center">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris ni</p>
-      </div>
+    <div class="social-bar">
+      <ul class="social">
+        <li class="hvr-pulse"><a href="http://facebook.com/"><img src="images/logo/facebook.png" class="img-responsive" alt=""></a></li>
+        <li class="hvr-pulse"><a href="http://linkedin.com/"><img src="images/logo/linkedin.png" class="img-responsive" alt=""></a></li>
+        <li class="hvr-pulse"><a href="http://twitter.com/"><img src="images/logo/twitter.png" class="img-responsive" alt=""></a></li>
+        <li class="hvr-pulse"><a href="http://plus.google.com/"><img src="images/logo/google-plus.png" class="img-responsive" alt=""> </a></li>
+        <li class="hvr-pulse"><a href="http://plus.google.com/"><img src="images/logo/whatsapp.png" class="img-responsive" alt=""> </a></li>
+      </ul>
     </div>
+    <div class="footer-nav">
+      <ul class="foot-nav">
+        <li><a href="#" title="">Bag</a></li>
+        <li><a href="#" title="">Belt</a></li>
+        <li><a href="#" title="">Boots</a></li>
+        <li><a href="#" title="">Purse</a></li>
+        <li><a href="#" title="">T-Shirt</a></li>
+        <li><a href="#" title="">Shoes</a></li>
+        <li><a href="#" title="">Skirt</a></li>
+        <li><a href="#" title="">Tie</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-logo-coppyright">
+      <img src="/images/logo/easyshop.png"   class="img-responsive" alt="">
+      <p>© <script>document.write(new Date().getFullYear())</script> Easy Shop</p>
+    </div>
+
+
+    <div class="footer-credit">
+      <p>Designed with <i class="fa fa-heart"></i> by <a href="#" title="">Rakesh Roy</a></p>
+    </div>
+
+
   </div>
 </footer>
 <div class="easyshop-progress-container">

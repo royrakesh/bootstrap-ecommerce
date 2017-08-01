@@ -68,7 +68,8 @@ grunt.initConfig({
           src: [
               'assets/css/app.min.css',
               'assets/js/*.js',
-              '*.php'
+              '*.php',
+              '**/*.php'
               ]
         },
         options: {
