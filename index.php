@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Easy Shop</title>
+    
+    <?php require('inc/meta.php') ?>
+    <title>Home - Easy Shop</title>
     <link rel="stylesheet" href="assets/css/app.min.css">
+   
   </head>
   <body>
 
@@ -16,7 +17,7 @@
 <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
 
 
-  <!-- Indicators -->
+<!--   Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
     <li data-target="#bs-carousel" data-slide-to="1"></li>
@@ -24,7 +25,7 @@
     <li data-target="#bs-carousel" data-slide-to="3"></li>
   </ol>
 
-  <!-- Wrapper for slides -->
+<!--   Wrapper for slides -->
   <div class="carousel-inner carousel-overlay">
     <div class="item slides active">
       <div class="slide-1"></div>
@@ -76,8 +77,8 @@
       <section class="easy-section" id="featured-product">
         <div class="container">
           <h1 class="section-heading">Featured Product</h1>
-          <div class="row list-group featured-products-inner  animatedParent"  data-sequence='300'>
-            <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3 animated bounceInDown" data-id='1'>
+          <div class="row list-group featured-products-inner">
+            <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3" data-id='1'>
               <div class="thumbnail">
                 <img src="./images/product.jpg" alt="" class="group list-group-image">
                 <div class="caption">
@@ -98,7 +99,7 @@
                 </div>
               </div>
             </div>
-            <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3 animated bounceInDown" data-id='2'>
+            <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3" data-id='2'>
               <div class="thumbnail">
                 <img src="./images/product.jpg" alt="" class="group list-group-image">
                 <div class="caption">
@@ -119,7 +120,7 @@
                 </div>
               </div>
             </div>
-            <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3 animated bounceInDown" data-id='3'>
+            <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3" data-id='3'>
               <div class="thumbnail">
                 <img src="./images/product.jpg" alt="" class="group list-group-image">
                 <div class="caption">
@@ -140,7 +141,7 @@
                 </div>
               </div>
             </div>
-             <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3 animated bounceInDown" data-id='4'>
+             <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3" data-id='4'>
               <div class="thumbnail">
                 <img src="./images/product.jpg" alt="" class="group list-group-image">
                 <div class="caption">

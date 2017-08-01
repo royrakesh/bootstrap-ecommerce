@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <?php require('inc/meta.php') ?>
     <title>Category - Easy Shop</title>
     <link rel="stylesheet" href="assets/css/app.min.css">
   </head>

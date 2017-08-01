@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Login - Easy Shop</title>
+     <?php require('inc/meta.php') ?>
+    <title>Register - Easy Shop</title>
     <link rel="stylesheet" href="assets/css/app.min.css">
   </head>
   <body>
