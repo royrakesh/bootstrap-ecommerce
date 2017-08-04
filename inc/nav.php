@@ -19,14 +19,22 @@
           <li class="active">
             <a href="/">Home</a>
           </li>
-          <li>
-            <a href="category.php">Category</a>
-          </li>
-          <li>
-            <a href="product.php">Product</a>
-          </li>
-          <li>
-            <a href="#">Featured</a>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="Product.php">Product</a>
+              </li>
+              <li>
+                <a href="category.php">Category</a>
+              </li>
+              <li>
+                <a href="cart.php">Cart</a>
+              </li>
+              <li>
+                <a href="checkout.php">Checkout</a>
+              </li>
+            </ul>
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">

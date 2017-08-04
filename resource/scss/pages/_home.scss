@@ -1,0 +1,249 @@
+.bg-full-height{
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background: url('../../images/slider.jpg') no-repeat center center scroll;
+    height: 450px;
+    padding: 140px 0;
+
+    .heade-box {
+    background: rgba(17, 17, 17, 0.73);
+    padding: 20px;
+    color: #fff;
+    font-size: 16px;
+    
+    p{
+    	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+
+	}
+
+}
+
+section#how-it-works * {
+    text-align: center;
+}
+
+
+.row.cart-row {
+    display: table-caption;
+}
+
+.featured-products-inner{
+
+    .item{
+        padding-top: 15px;
+
+        &:hover{
+
+            box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 2px;
+            
+            }
+            .thumbnail{
+                margin-bottom: 15px; 
+            }
+
+            
+        }
+}
+
+
+
+.category{
+    display: block;
+    padding: 4px;
+    margin-bottom: 25px;
+    line-height: 1.846;
+    background-color: #fff;
+    transition: all .2s ease-in-out;
+    &:hover{
+        transform: scale(1.1);
+    }
+
+    img{
+    vertical-align: middle;
+    display: block;
+    max-width: 40%;
+    height: auto;
+    margin: 0 auto;
+    }
+
+    .caption {
+    padding: 9px;
+    color: #555;
+    text-align: center;
+       
+        
+    }
+}
+
+
+
+section#how-it-works .icon{
+  
+  margin-bottom:15px;
+
+      img {
+        max-width: 10em;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+.fade-carousel {
+    position: relative;
+    height: 90vh;          
+  }
+
+
+.carousel-overlay{
+ 
+
+   .item:nth-child(odd){
+
+    &:before{
+    content:"";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.55);
+    }
+
+   }
+   .item:nth-child(even){
+
+    &:before{
+    content:"";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(66, 71, 26, 0.56);
+    }
+
+   }
+  
+}
+
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+
+    hgroup{
+
+        h1 {
+        font-size: 5em;    
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+        color:#fff;
+
+        @media (max-width:640px){
+        font-size: 4em;
+        }
+        }
+
+        h3{
+            font-size: 2em;
+            color:#fff;
+        }
+
+    }
+
+    @media (max-width: $screen-sm-min ) {
+        width: 980px; 
+    }
+
+
+}
+
+
+.fade-carousel .slides{
+    
+    .slide-1 , .slide-2 , .slide-3 , .slide-4{
+        height: 90vh;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .slide-1 {
+    background-image: url(../../images/slider/home-slider-laptop-grass.jpg); 
+    }
+
+    .slide-2 {
+     background-image: url(../../images/slider/home-slider-laptop.jpg); 
+    }
+
+    .slide-3 {
+    background-image: url(../../images/slider/home-slider-mobile-hill.jpg); 
+    }
+
+    .slide-4 {
+    background-image: url(../../images/slider/home-slider-mobile-iphone.jpg); 
+    }
+
+
+
+
+}
+
+
+.btn-hero {
+    background: #2196f3;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    color: #FFF;
+    position: relative;
+
+    &:after{
+        content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.4);
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+    }
+
+    &:hover:after{
+    width: 100%;
+    background-color: rgba(255,255,255,0);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    }
+}

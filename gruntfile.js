@@ -1,38 +1,38 @@
-module.exports = function(grunt) {
-
-
-
+module.exports = function(grunt)
+{
   // the general grunt function that is run
-grunt.initConfig({
-  sass: {                              // Task
-    dist: {                            // Target
-      options: {                       // Target options
-        style: 'compressed',
+  grunt.initConfig(
+  {
+    copy: {
+      main: {
+        files: [
+        {
+          expand: true,
+          src: ["node_modules/font-awesome-scss/fonts/*"],
+          dest: 'assets/fonts',
+          filter: 'isFile',
+          flatten: true,
+        }, 
+        {
+          expand: true,
+          src: ["node_modules/bootstrap-sass/assets/fonts/bootstrap/*"],
+          dest: 'assets/fonts',
+          filter: 'isFile',
+          flatten: true,
+        }, ],
       },
-      files: {                         // Dictionary of files
-        'assets/css/main.css': 'resource/scss/app.scss',       // 'destination': 'source'
+    },
+    sass: { // Task
+      dist: { // Target
+        options: { // Target options
+          style: 'compressed',
+        },
+        files: { // Dictionary of files
+          'assets/css/app.min.css': ['resource/scss/app.scss']
+        }
       }
-    }
-  },
-
-  cssmin: {
-  options: {
-    rebase:false,
-    mergeIntoShorthands: false,
-    roundingPrecision: -1
-
-  },
-  target: {
-    files: {
-      'assets/css/app.min.css': [
-                                  'assets/css/main.css',
-                                  'assets/css/font-awesome.css',
-                                  'resource/css/animations.css'
-                                ]
-      }
-    }
-  },
-  uglify: {
+    },
+    uglify: {
       options: {
         mangle: false,
         sourceMap: true,
@@ -40,60 +40,41 @@ grunt.initConfig({
       },
       target: {
         files: {
-          'assets/js/app.min.js': [
-                                  'resource/js/bootstrap.js',
-                                  'resource/js/css3-animate-it.js',
-                                  'resource/js/main.js'
-                                  ]
+          'assets/js/app.min.js': ['node_modules/jquery/dist/jquery.js', 'node_modules/jquery/dist/jquery.slim.js', 'node_modules/bootstrap-sass/assets/javascripts/bootstrap.js', 'resource/js/main.js']
         }
       }
     },
-   watch: {
+    watch: {
       options: {
-       nospawn:true
+        nospawn: true
       },
       css: {
-        files: ['resource/scss/**/*.scss' , 'resource/scss/*.scss'],
-        tasks: ['sass','cssmin'],
+        files: ['resource/scss/**/*.scss', 'resource/scss/*.scss'],
+        tasks: ['sass'],
       },
-      js:{
-        files:['resource/js/*.js' , 'resource/js/*/*.js'],
-        tasks:['uglify'],
+      js: {
+        files: ['resource/js/*.js', 'resource/js/*/*.js'],
+        tasks: ['uglify'],
       }
     },
     browserSync: {
       dev: {
-
-        bsFiles:{
-          src: [
-              'assets/css/app.min.css',
-              'assets/js/*.js',
-              '*.php',
-              '**/*.php'
-              ]
+        bsFiles: {
+          src: ['assets/css/app.min.css', 'assets/js/*.js', '*.php', '**/*.php']
         },
         options: {
-          watchTask:true,
+          watchTask: true,
           proxy: 'bootstrapmat.dev',
         }
-
       }
     }
-
-});
-
-
-
+  });
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-compress');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-browser-sync');
-
-
   // registering the default task that we're going to use along with watch
-  grunt.registerTask('default', ['sass','cssmin','uglify', 'browserSync','watch']);
-
-
+  grunt.registerTask('default', ['copy', 'sass', 'uglify', 'browserSync', 'watch']);
 };

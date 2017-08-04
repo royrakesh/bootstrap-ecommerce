@@ -1,0 +1,21 @@
+.product{
+	margin:20px auto;
+
+	@media  (min-width : $screen-sm-min) {
+    .product-row {
+        display: table;
+
+       > [class*="col-"] {
+           display: table-cell;
+           vertical-align: middle;
+    		}
+		}
+
+	}
+
+  .product-cart a.btn.btn-info.btn-block{
+    margin-bottom: 5px;
+  }
+
+
+}

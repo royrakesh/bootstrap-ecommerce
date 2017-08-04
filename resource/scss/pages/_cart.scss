@@ -1,0 +1,33 @@
+
+
+.cart{
+
+   		.table-hover>tbody>tr{
+			border-bottom: 2px solid grey;
+			&:last-of-type{
+				border: none;
+			}
+
+
+			}
+
+			.table-hover>tbody>tr>td{
+				vertical-align:middle;
+			}
+
+
+			.dl-horizontal dt {
+		    text-align: left!important;
+			}
+
+
+			.cart-details {
+			background: #eee;
+			padding: 20px;
+			margin: 0 auto;
+
+			}
+
+
+}
+

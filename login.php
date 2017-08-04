@@ -65,7 +65,6 @@
     <!-- /footer -->
 		<!-- /footer -->
 		<!-- Scripts -->
-		<script src="assets/js/jquery.js" type="text/javascript" charset="utf-8"></script>
 		<script src="assets/js/app.min.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 

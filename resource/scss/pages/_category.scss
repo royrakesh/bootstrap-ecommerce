@@ -1,0 +1,39 @@
+
+
+.category-banner{
+    margin-bottom: 50px;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    clear: both;
+    background: transparent url(../../images/slider.jpg) center center no-repeat fixed;
+    -webkit-background-size:cover;
+    -ms-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    display: table;
+
+    .wrap-center{
+        margin: 0 auto;
+        position: relative;
+        max-width: 73.231em;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .banner-centered{
+        text-align: center;
+        display: block;
+        height: inherit;
+        overflow: hidden;
+        
+        h2{
+            font-size: 2.335em;
+            line-height: 1.5em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #fafafa;
+            display: block;
+        }
+    }
+}

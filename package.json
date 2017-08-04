@@ -7,16 +7,18 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
-    "grunt-browser-sync": "^2.2.0",
-    "grunt-contrib-compress": "^1.4.3",
-    "hover.css": "^2.2.0"
+    "font-awesome-scss": "^1.0.0",
+    "hover.css": "^2.2.0",
+    "jquery": "^3.2.1"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-contrib-cssmin": "^2.0.0",
-    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-compress": "^1.4.3",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^2.2.0",
-    "grunt-contrib-watch": "^1.0.0"
+    "grunt-contrib-watch": "^1.0.0",
+    "juice": "^4.1.0"
   }
 }

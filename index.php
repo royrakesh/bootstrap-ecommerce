@@ -72,6 +72,9 @@
   </div>
 </div>
 
+
+
+
    <!-- Slider -->
     <div class="main">
       <section class="easy-section" id="featured-product">
@@ -96,6 +99,7 @@
                       </div>
                     </div>
                   </p>
+                  
                 </div>
               </div>
             </div>
@@ -351,7 +355,7 @@
 
 
     <!-- Scripts -->
-    <script src="assets/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+
     <script src="assets/js/app.min.js" type="text/javascript" charset="utf-8"></script>
   </body>
 </html>
