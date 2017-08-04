@@ -32,7 +32,7 @@
             <div class="row product-row">
             <div class="col-xs-12 col-md-6">
               <div class="product-image">
-                <img src="/images/product/laptop.png" class="img-responsive" alt="Image">
+                <img src="images/product/laptop.png" class="img-responsive" alt="Image">
               </div>
               <div class="product-image-slider"></div>
               
@@ -164,28 +164,28 @@
                     
                 <div class="item active">
                   <div class="row">
-                    <div class="col-sm-12 col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-sm-12 col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-sm-12 col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-sm-12 col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-sm-12 col-md-3"><a href="#" class="thumbnail"><img src="images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-sm-12 col-md-3"><a href="#" class="thumbnail"><img src="images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-sm-12 col-md-3"><a href="#" class="thumbnail"><img src="images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-sm-12 col-md-3"><a href="#" class="thumbnail"><img src="images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
                   </div><!--.row-->
                 </div><!--.item-->
                  
                 <div class="item">
                   <div class="row">
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
                   </div><!--.row-->
                 </div><!--.item-->
                  
                 <div class="item">
                   <div class="row">
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
-                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="/images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
+                    <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/product.jpg" alt="Image" style="max-width:100%;"></a></div>
                   </div><!--.row-->
                 </div><!--.item-->
                  

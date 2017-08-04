@@ -24,7 +24,7 @@
     </div>
 
     <div class="footer-logo-coppyright">
-      <img src="/images/logo/easyshop.png"   class="img-responsive" alt="">
+      <img src="images/logo/easyshop.png"   class="img-responsive" alt="">
       <p>© <script>document.write(new Date().getFullYear())</script> Easy Shop</p>
     </div>
 

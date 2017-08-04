@@ -83,7 +83,7 @@
           <div class="row list-group featured-products-inner">
             <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3" data-id='1'>
               <div class="thumbnail">
-                <img src="./images/product.jpg" alt="" class="group list-group-image">
+                <img src="images/product.jpg" alt="" class="group list-group-image">
                 <div class="caption">
                   <h3 class="group inner list-group-item-heading">Title</h3>
                   <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -105,7 +105,7 @@
             </div>
             <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3" data-id='2'>
               <div class="thumbnail">
-                <img src="./images/product.jpg" alt="" class="group list-group-image">
+                <img src="images/product.jpg" alt="" class="group list-group-image">
                 <div class="caption">
                   <h3 class="group inner list-group-item-heading">Title</h3>
                   <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -126,7 +126,7 @@
             </div>
             <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3" data-id='3'>
               <div class="thumbnail">
-                <img src="./images/product.jpg" alt="" class="group list-group-image">
+                <img src="images/product.jpg" alt="" class="group list-group-image">
                 <div class="caption">
                   <h3 class="group inner list-group-item-heading">Title</h3>
                   <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -147,7 +147,7 @@
             </div>
              <div class="item col-xs-12 col-sm-3 col-md-3 col-lg-3" data-id='4'>
               <div class="thumbnail">
-                <img src="./images/product.jpg" alt="" class="group list-group-image">
+                <img src="images/product.jpg" alt="" class="group list-group-image">
                 <div class="caption">
                   <h3 class="group inner list-group-item-heading">Title</h3>
                   <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -263,19 +263,19 @@
       <h1 class="section-heading">How it works </h1>
           <div class="row">
             <div class="col-xs-12 col-md-4">
-            <div class="icon"><img src="/images/icons/gears.png" class="img-responsive" alt="Image"></div>
+            <div class="icon"><img src="images/icons/gears.png" class="img-responsive" alt="Image"></div>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation.</span>
             </div>
             <div class="col-xs-12 col-md-4">
-              <div class="icon"><img src="/images/icons/hourglass.png" class="img-responsive" alt=""></div>
+              <div class="icon"><img src="images/icons/hourglass.png" class="img-responsive" alt=""></div>
               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation.</span>
             </div>
             <div class="col-xs-12 col-md-4">
-            <div class="icon"><img src="/images/icons/hand-shake.png" class="img-responsive" alt="Image"></div>
+            <div class="icon"><img src="images/icons/hand-shake.png" class="img-responsive" alt="Image"></div>
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation.</span></div>

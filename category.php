@@ -25,7 +25,7 @@
                 <div class="row list-group product-grid">
                   <div class="item col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
                     <div class="thumbnail">
-                      <img src="./images/product.jpg" alt="" class="group list-group-image">
+                      <img src="images/product.jpg" alt="" class="group list-group-image">
                       <div class="caption">
                         <h3 class="group inner list-group-item-heading">Title</h3>
                         <div class="row product">
@@ -41,7 +41,7 @@
                   </div>
                   <div class="item col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
                     <div class="thumbnail">
-                      <img src="./images/product.jpg" alt="" class="group list-group-image">
+                      <img src="images/product.jpg" alt="" class="group list-group-image">
                       <div class="caption">
                         <h3 class="group inner list-group-item-heading">Title</h3>
                         <div class="row product">
@@ -57,7 +57,7 @@
                   </div>
                   <div class="item col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
                     <div class="thumbnail">
-                      <img src="./images/product.jpg" alt="" class="group list-group-image">
+                      <img src="images/product.jpg" alt="" class="group list-group-image">
                       <div class="caption">
                         <h3 class="group inner list-group-item-heading">Title</h3>
                         <div class="row product">
@@ -73,7 +73,7 @@
                   </div>
                   <div class="item col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
                     <div class="thumbnail">
-                      <img src="./images/product.jpg" alt="" class="group list-group-image">
+                      <img src="images/product.jpg" alt="" class="group list-group-image">
                       <div class="caption">
                         <h3 class="group inner list-group-item-heading">Title</h3>
                         <div class="row product">
