@@ -1,8 +1,10 @@
 # Bootstrap Ecommerce Template Using Paper theme
 
 This template is build with [Bootstrap Paper] theme and [bootstrap-sass (3.3.7)]
+## Installation for production
+ * First clone the repo and open in browser css and js already ready to use
 
-## Installation
+## Installation for development
  * First clone the repo, after cloning the repo run `npm install` or `yarn install` 
  * Change the url of browser sync (in gruntfile.js)  then just run `grunt` to start the server 
  
