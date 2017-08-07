@@ -29,5 +29,55 @@
 			}
 
 
+			
+
+			input#quantity {
+			text-align: center;
+			}
+
+			
+      .cart-wrapper {
+			background: #eee;
+			padding: 20px 0px;
+			margin: 5px;
+			border-bottom: 1px solid rgba(68, 68, 68, 0.34);
+			
+
+			@media (min-width: $screen-sm-min ) {
+
+			.vm > div{
+				display:table;
+				height: 100%;
+
+				div,h4,img{
+					margin:12.5px auto;
+				}
+			}
+
+
+			}
+
+			@media (max-width: $screen-sm-min ) {
+
+			.row.vm > div{
+				
+				div,h4,img, .cart-button{
+					margin:12.5px auto;
+				}
+			}
+
+			.cart-button {
+			display: flex;
+			}
+
+			}
+
+
+			}
+
+
+
+			
+
 }
 

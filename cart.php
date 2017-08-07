@@ -17,7 +17,89 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-9">
 				<h1 class="page-title">Cart</h1>
-					<table class="table table-responsive">
+
+						
+							
+				<div class="row cart-wrapper">
+					<div class="col-xs-12">
+						<div class="row vm">
+							<div class="col-xs-12 col-sm-3">
+								<img src="images/product.jpg" class="img-responsive" alt="">
+								<div class="input-group m-t-20">
+									<span class="input-group-btn">
+										<button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+										<span class="glyphicon glyphicon-minus"></span>
+										</button>
+									</span>
+									<input type="text" id="quantity" name="quantity" class="form-control input-number text-center" value="10" min="1" max="10">
+									<span class="input-group-btn">
+										<button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+										<span class="glyphicon glyphicon-plus"></span>
+										</button>
+									</span>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-3" style="text-align: left">
+									<h4 class="nomargin">Product 1</h4>
+									<span class="text-muted">Black Dell, Size: 2Gb</span><br>
+
+									<span>by <strong>A P Telecom.</strong></span>
+
+
+							</div>
+							<div class="col-xs-12 col-sm-3"><div><span class="hidden-md  hidden-lg">Price : </span><strong>25$</strong></div></div>
+							<div class="col-xs-12 col-sm-3">
+								<div class="cart-button">
+									<button class="btn btn-info btn-sm col-xs-6"><i class="fa fa-refresh"></i></button>
+									<button class="btn btn-danger btn-sm col-xs-6"><i class="fa fa-trash-o"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row cart-wrapper">
+					<div class="col-xs-12">
+						<div class="row vm">
+							<div class="col-xs-12 col-sm-3">
+								<img src="images/product.jpg" class="img-responsive" alt="">
+								<div class="input-group m-t-20">
+									<span class="input-group-btn">
+										<button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+										<span class="glyphicon glyphicon-minus"></span>
+										</button>
+									</span>
+									<input type="text" id="quantity" name="quantity" class="form-control input-number text-center" value="10" min="1" max="10">
+									<span class="input-group-btn">
+										<button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+										<span class="glyphicon glyphicon-plus"></span>
+										</button>
+									</span>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-3" style="text-align: left">
+									<h4 class="nomargin">Product 1</h4>
+									<span class="text-muted">Black Dell, Size: 2Gb</span><br>
+
+									<span>by <strong>A P Telecom.</strong></span>
+
+
+							</div>
+							<div class="col-xs-12 col-sm-3"><div><span class="hidden-md  hidden-lg">Price : </span><strong>25$</strong></div></div>
+							<div class="col-xs-12 col-sm-3">
+								<div class="cart-button">
+									<button class="btn btn-info btn-sm col-xs-6"><i class="fa fa-refresh"></i></button>
+									<button class="btn btn-danger btn-sm col-xs-6"><i class="fa fa-trash-o"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+					<!-- <table class="table table-responsive">
 						<thead>
 							<tr>
 								<th style="width: 50%">Product</th>
@@ -72,7 +154,7 @@
 								</td>
 							</tr>
 						</tbody>
-					</table>
+					</table> -->
 
 					<a href="category.php" class="btn btn-info" title=""><i class="fa fa-mail-reply"></i> Continue shopping</a>
 				</div>
