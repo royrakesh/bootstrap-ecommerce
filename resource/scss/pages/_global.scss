@@ -14,6 +14,20 @@
     margin: 30px auto;
     min-height: 450px;
     display: table;
+
+
+    @media(max-width:768px){
+        margin: 10px auto !important;
+        padding: 5px;
+        max-width:100%;
+    }
+
+    @media(max-width:340px){
+        margin: 10px auto !important;
+        padding: 5px;
+        max-width:100%;
+    }
+
     .container {
         display: table-cell;
         vertical-align: middle;
