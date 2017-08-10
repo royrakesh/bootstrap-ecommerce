@@ -23,7 +23,7 @@
 					  </div>
 
 						<div class="panel-body">
-							<div class="form" role="form">
+							<form class="form" role="form">
 
 								<div class="form-group">
 									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
@@ -59,7 +59,7 @@
 
 								</div>
 
-							</div>
+							</form> <!--  end of form -->
 						</div>
 					</div>
 
