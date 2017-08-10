@@ -50,7 +50,7 @@
 
 										<div class="col-xs-12 col-sm-6">
 												<div class="form-group">
-													<input type="text" name="country" id="city" class="form-control" value="" required="required" pattern="" title="" placeholder="Country">
+													<input type="text" name="country" id="city" class="form-control" value="" required="required"  title="" placeholder="Country">
 												</div>
 											</div>
 
@@ -75,13 +75,13 @@
 										<div class="row">
 											<div class="col-xs-12 col-sm-6">
 												<div class="form-group">
-												<input type="text" name="pincode" id="pincode" class="form-control" value="" required="required" pattern="" title="" placeholder="Pincode">
+												<input type="text" name="pincode" id="pincode" class="form-control" value="" required="required" title="" placeholder="Pincode">
 												</div>
 											</div>
 											
 												<div class="col-xs-12 col-sm-6">
 												<div class="form-group">
-													<input type="text" name="city" id="city" class="form-control" value="" required="required" pattern="" title="" placeholder="City">
+													<input type="text" name="city" id="city" class="form-control" value="" required="required"  title="" placeholder="City">
 												</div>
 											</div>
 										</div>
