@@ -26,7 +26,7 @@ This template is build with [Bootstrap Paper] theme and [bootstrap-sass (3.3.7)]
 
 ## Known Issue
 
-The `browserSync` only works with host name (like yourhost.dev ), simple localhost not going to work so if you have  [Laragon]  (which automatically create a hostname on project creation ) the you can use `browserSync` or you just have to comment the part in `gruntfile.js` file and remove it from `grunt.registerTask('default', ['copy', 'sass', 'uglify', 'browserSync', 'watch']);` here.
+* The `browserSync` only works with host name (like yourhost.dev ), simple localhost not going to work so if you have  [Laragon]  (which automatically create a hostname on project creation ) then you can use `browserSync` or you just have to comment the part in `gruntfile.js` file and remove it from `grunt.registerTask('default', ['copy', 'sass', 'uglify', 'browserSync', 'watch']);` here.
 
 
 
