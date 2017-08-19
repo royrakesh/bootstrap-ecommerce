@@ -1,16 +1,13 @@
 {
-  "name": "bootstrapmat",
+  "name": "bootstrap-ecommerce",
   "version": "1.0.0",
-  "description": "Mat design using Bootstrap Scss and Bootswatch Paper theme",
-  "main": "index.js",
-  "author": "Rakesh",
-  "license": "MIT",
+  "description": "Bootstrap Ecommerce Template Using Paper theme ,This template is build with Bootstrap Paper theme and bootstrap-sass (3.3.7)",
+  "main": "gruntfile.js",
   "dependencies": {
-    "bootstrap-sass": "^3.3.7",
+     "bootstrap-sass": "^3.3.7",
     "font-awesome-scss": "^1.0.0",
     "hover.css": "^2.2.0",
-    "jquery": "^3.2.1",
-    "parsleyjs": "^2.7.2"
+    "jquery": "^3.2.1"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
@@ -19,7 +16,24 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^2.2.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "juice": "^4.1.0"
-  }
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royrakesh/bootstrap-ecommerce.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "E-commerce",
+    "Grunt"
+  ],
+  "author": "Rakesh Roy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/royrakesh/bootstrap-ecommerce/issues"
+  },
+  "homepage": "https://github.com/royrakesh/bootstrap-ecommerce#readme"
 }
