@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="assets/css/app.min.css">
 	</head>
 	<body>
-		<? require('inc/nav.php') ?>
+		<?php require('inc/nav.php') ?>
 		<div class="main checkout">
 			<div class="easy-section">
 				<div class="container">
@@ -133,7 +133,7 @@
 					</div> <!-- end of container -->
 				</div>
 			</div>
-			<? require_once 'inc/footer.php';?>
+			<?php require_once 'inc/footer.php';?>
 			<!-- Scripts -->
 			<script src="assets/js/app.min.js" type="text/javascript" charset="utf-8"></script>
 		</body>

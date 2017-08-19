@@ -47,7 +47,7 @@
 
 		</div>
 
-		 <? require_once 'inc/footer.php';?>
+		 <?php require_once 'inc/footer.php';?>
 
     <script src="assets/js/app.min.js" type="text/javascript" charset="utf-8"></script>
   </body>

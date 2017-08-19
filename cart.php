@@ -8,7 +8,7 @@
 		
 	</head>
 	<body>
-		<? require('inc/nav.php') ?>
+		<?php require('inc/nav.php') ?>
 		
 		<div class="main cart">
 			<div class="easy-section">
@@ -113,7 +113,7 @@
 			</div>
 			
 		</div>
-		<? require_once 'inc/footer.php';?>
+		<?php require_once 'inc/footer.php';?>
 		<!-- Scripts -->
 		<script src="assets/js/app.min.js" type="text/javascript" charset="utf-8"></script>
 	</body>

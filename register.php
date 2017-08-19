@@ -7,7 +7,7 @@
   </head>
   <body>
 
-      <? require_once('inc/nav.php') ?>
+      <?php require_once('inc/nav.php') ?>
 
 		<!-- /header -->
 		<div class="main">
@@ -68,7 +68,7 @@
 			</div>
 
 		</div>
-		  <? require_once 'inc/footer.php';?>
+		  <?php require_once 'inc/footer.php';?>
     <!-- /footer -->
 		<!-- /footer -->
 		<!-- Scripts -->

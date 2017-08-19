@@ -1,7 +1,7 @@
 {
     "name": "royrakesh/bootstrap-ecommerce",
     "description": "Bootstrap Ecommerce Template Using Paper theme ,This template is build with Bootstrap Paper theme and bootstrap-sass (3.3.7)",
-    "keywords": ["Bootstrap", "Php"],
+    "keywords": ["Bootstrap", "Php" ,"grunt"],
     "type": "project",
     "license": "MIT",
     "homepage": "https://github.com/royrakesh/bootstrap-ecommerce",

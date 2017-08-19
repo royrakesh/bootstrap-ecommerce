@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="assets/css/app.min.css">
   </head>
   <body>
-    <? require( 'inc/nav.php') ?>
+    <?php require( 'inc/nav.php') ?>
       <div class="main product">
         <div class="container">
 
@@ -204,7 +204,7 @@
 
       </div> <!-- .main end -->
 
-      <? require_once 'inc/footer.php';?>
+      <?php require_once 'inc/footer.php';?>
       <!-- /footer -->
       <!-- progressbar -->
       <div class="easyshop-progress-container">

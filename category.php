@@ -6,7 +6,7 @@
       <link rel="stylesheet" href="assets/css/app.min.css">
   </head>
   <body>
-    <? require_once( 'inc/nav.php') ?>
+    <?php require_once( 'inc/nav.php') ?>
       <header id="banner" class="category-banner" style="transform: all .4s">
         <div class="wrap-center">
           <div class="banner-centered" id="banner-text">
@@ -101,7 +101,7 @@
           </div>
         </section>
       </div>
-      <? require_once 'inc/footer.php';?>
+      <?php require_once 'inc/footer.php';?>
         <!-- Scripts -->
         <script src="assets/js/app.min.js" type="text/javascript" charset="utf-8"></script>
   </body>
