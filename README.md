@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="screenshot/8d22dbedd0944856a4fa2d35b21c7e1b_13_1600.jpg?raw=true">
+</p>
+
+
+
 # Bootstrap Ecommerce Template Using Paper theme
 
 This template is build with [Bootstrap Paper] theme and [bootstrap-sass (3.3.7)]
@@ -12,16 +18,12 @@ This template is build with [Bootstrap Paper] theme and [bootstrap-sass (3.3.7)]
  * Sass files ara avalable for development 
  
 
- ![browser sync](http://res.cloudinary.com/rakeshrio/image/upload/v1501840842/Sc_vxkdwx.png "Bootstrap Ecommerce Template")
-
 ## Credits   
 
   * Icon: [Flaticon] and [Font Awesome]
   * Effects: [Hover.css]
   * Js : [Jquery 3.2.1]
 
-
-![Bootstrap Ecommerce Template](http://magicmockups.com/media/screen/guest/16/3d21c542e1b748028a8ea8e677810bd4_22_1920.jpg "Bootstrap Ecommerce Template")
 
 
 ## Known Issue
