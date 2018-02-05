@@ -15,7 +15,7 @@ This template is build with [Bootstrap Paper] theme and [bootstrap-sass (3.3.7)]
 
  * First clone the repository, after cloning the repository run `npm install` or `yarn install` 
  * Change the url of browser sync (in gruntfile.js)  then just run `grunt` to start the server 
- * Sass files ara avalable for development 
+ * Sass files are available for development 
  
 
 ## Credits   
