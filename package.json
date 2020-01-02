@@ -4,7 +4,7 @@
   "description": "Bootstrap Ecommerce Template Using Paper theme ,This template is build with Bootstrap Paper theme and bootstrap-sass (3.3.7)",
   "main": "gruntfile.js",
   "dependencies": {
-     "bootstrap-sass": "^3.3.7",
+     "bootstrap-sass": "^3.4.1",
     "font-awesome-scss": "^1.0.0",
     "hover.css": "^2.2.0",
     "jquery": "^3.2.1"
